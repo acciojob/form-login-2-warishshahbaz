@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let btn = document.getElementById("MyForm");
-function handleSubmit(e){
-	e.preventDefault();
+function handleSubmit(){
+	// e.preventDefault();
 
 	let first = document.getElementById("firstname").value
 	let last = document.getElementById("lastname").value
