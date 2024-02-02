@@ -1,8 +1,8 @@
 //your JS code here. If required.
 let btn = document.getElementById("MyForm");
 function handleSubmit(){
-	// e.preventDefault();
-
+	
+alert("fdsfs")
 	let first = document.getElementById("firstname").value
 	let last = document.getElementById("lastname").value
 	let phone = document.getElementById("phone").value
